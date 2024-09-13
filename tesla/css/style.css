@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1920px;
+  width: 100%;
+  height: 650px;
+  margin: auto;
+  background: url(../img/header_bg.jpg) no-repeat center center / cover;
+}
+
+.head_h1 {
+  font-size: 75px;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+/* section start */
+
+.number1 {
+  max-width: 1920px;
+  width: 100%;
+  height: 650px;
+  margin: auto;
+}
+
+.num1_h1 {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.num1_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.num1_h2 {
+  text-align: center;
+}
+/* sections 2 start */
+
+.number2 {
+  max-width: 1920px;
+  width: 100%;
+  height: 450px;
+  margin: auto;
+}
+
+.num2_h1 {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.num2_img {
+  width: 80%;
+}
+
+@media screen and (max-width: 992px) {
+  .num1_h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .num1_p {
+    font-size: 14px;
+  }
+
+  .num2_img {
+    width: 100%;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head_h1 {
+    font-size: 55px;
+  }
+
+  header {
+    height: 439px;
+  }
+
+  .num1_h1 {
+    font-size: 28px;
+  }
+
+  .num2_h1 {
+    font-size: 28px;
+  }
+
+  .num2_img {
+    width: 60%;
+    margin: 7px auto;
+    display: flex;
+  }
+
+  .num2_h1 {
+    font-size: 28px;
+    margin-bottom: -51px;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  header {
+    height: 315px;
+  }
+  .head_h1 {
+    font-size: 35px;
+    height: 186px;
+  }
+
+  .num1_h1 {
+    font-size: 24px;
+  }
+
+  .num2_h1 {
+    font-size: 24px;
+    margin-bottom: -51px;
+  }
+
+  .num2_img {
+    width: 60%;
+    height: 87%;
+    margin: 7px auto;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 381px) {
+  .num1_h1 {
+    font-size: 24px;
+    height: 110px;
+  }
+
+  header {
+    height: auto;
+  }
+  .head_h1 {
+    font-size: 24px;
+    height: 172px;
+  }
+
+  .num1_h1 {
+    font-size: 20px;
+    height: 88px;
+  }
+
+  .num1_p {
+    font-size: 11px;
+  }
+
+  .num1_h2 {
+    text-align: center;
+    font-size: 19px;
+}
+
+
+}
